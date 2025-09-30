@@ -65,7 +65,7 @@ export default function AboutEssence() {
           </div>
           <div className="aspect-[16/9] overflow-hidden rounded-xl border border-border">
             <Image
-              src="/images/busytech-about-reference.png"
+              src="/about1.png"
               alt="Reference aesthetic of a modern About page"
               width={1200}
               height={675}
