@@ -72,7 +72,7 @@ export default function FooterSection() {
         {/* Right: Social Icons */}
         <div className="flex items-center gap-5">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=61580428025839"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook"
@@ -81,22 +81,13 @@ export default function FooterSection() {
             <Facebook size={24} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/galaxiumdigital/"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
             className="text-foreground/80 hover:text-foreground transition transform hover:scale-110"
           >
             <Instagram size={24} />
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="LinkedIn"
-            className="text-foreground/80 hover:text-foreground transition transform hover:scale-110"
-          >
-            <Linkedin size={24} />
           </a>
         </div>
       </div>
