@@ -73,46 +73,45 @@ export default function MarketingPage() {
         className="mx-auto max-w-6xl px-4 py-16 space-y-24"
       >
         <FeatureRow
-          eyebrow="Social Media Marketing"
-          title="Grow Your Brand Online"
-          description="We craft strategies for platforms like Instagram, TikTok, LinkedIn, and Facebook to increase visibility and engagement."
-          imageAlt="Social media marketing illustration"
-          imageUrl="/280412-P6ATOW-488.jpg"
-        />
+  eyebrow="Social Media Marketing"
+  title="Grow Your Brand Online"
+  description="We craft strategies for platforms like Instagram, TikTok, LinkedIn, and Facebook to increase visibility and engagement. Every campaign is tailored to your audience, ensuring consistent growth and genuine community interaction."
+  imageAlt="Social media marketing illustration"
+  imageUrl="/280412-P6ATOW-488.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="Google & Meta Ads"
-          title="Reach the Right Audience"
-          description="Our ad campaigns on Google and Meta (Facebook & Instagram) are optimized for conversions and ROI."
-          imageAlt="Google Ads illustration"
-          imageUrl="/6076520.jpg"
-          
-        />
+<FeatureRow
+  eyebrow="Google & Meta Ads"
+  title="Reach the Right Audience"
+  description="Our ad campaigns on Google and Meta (Facebook & Instagram) are optimized for conversions and ROI. We combine creative visuals with data insights to maximize every click and attract customers that matter most."
+  imageAlt="Google Ads illustration"
+  imageUrl="/6076520.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="Email Marketing"
-          title="Direct Outreach That Works"
-          description="From cold emails to automated campaigns, we create messages that build relationships and drive results."
-          imageAlt="Email marketing illustration"
-          imageUrl="/em.jpg"
-        />
+<FeatureRow
+  eyebrow="Email Marketing"
+  title="Direct Outreach That Works"
+  description="From cold emails to automated campaigns, we create messages that build relationships and drive results. Our personalized email strategies help nurture leads, boost retention, and convert interest into action."
+  imageAlt="Email marketing illustration"
+  imageUrl="/em.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="SEO & Content Strategy"
-          title="Rank Higher, Gain Trust"
-          description="We optimize websites and content to rank higher in search engines, improving long-term visibility and brand trust."
-          imageAlt="SEO optimization illustration"
-          imageUrl="/sero.png"
-       
-        />
+<FeatureRow
+  eyebrow="SEO & Content Strategy"
+  title="Rank Higher, Gain Trust"
+  description="We optimize websites and content to rank higher in search engines, improving long-term visibility and brand trust. With data-backed keyword research and quality content, your business earns organic growth and authority."
+  imageAlt="SEO optimization illustration"
+  imageUrl="/sero.png"
+/>
 
-        <FeatureRow
-          eyebrow="Analytics & Optimization"
-          title="Data-Driven Decisions"
-          description="We track performance across campaigns and optimize strategies, ensuring your business achieves measurable growth."
-          imageAlt="Analytics dashboard illustration"
-          imageUrl="/4020769.jpg"
-        />
+<FeatureRow
+  eyebrow="Analytics & Optimization"
+  title="Data-Driven Decisions"
+  description="We track performance across campaigns and optimize strategies, ensuring your business achieves measurable growth. Real-time reports and insights keep you informed while we fine-tune every step for better outcomes."
+  imageAlt="Analytics dashboard illustration"
+  imageUrl="/4020769.jpg"
+/>
+
       </div>
 
       {/* CTA */}

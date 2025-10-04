@@ -29,7 +29,7 @@ export default function AutomationPage() {
             {/* Right Image */}
             <div className="flex-1 relative z-10">
               <img
-                src="/automation.png"
+                src="/hand-drawn-flat-design-rpa-illustration.png"
                 alt="Workflow automation illustration"
                 className="w-full max-w-lg md:max-w-xl mx-auto md:mx-0"
               />
@@ -82,32 +82,38 @@ export default function AutomationPage() {
         <FeatureRow
           eyebrow="Custom Workflows"
           title="Automate your unique processes"
-          description="From lead management to reporting, we design workflows that fit your exact needs, helping your team work smarter, not harder."
+          description="From lead management to reporting, we design workflows that fit your exact needs, helping your team work smarter, not harder. Our automations adapt to your business logic and scale as your operations grow. We focus on reducing human error and saving valuable time.s"
           imageAlt="Workflow automation illustration"
+          imageUrl="/qwe.png"
         />
         <FeatureRow
           eyebrow="Third-Party Integrations"
           title="Seamlessly connect your tools"
-          description="We integrate platforms like Slack, Airtable, Notion, and CRMs with automation tools like n8n or Zapier for smooth workflows."
-          imageAlt="Integration illustration"/>
+          description="We integrate platforms like Slack, Airtable, Notion, and CRMs with automation tools like n8n or Zapier for smooth workflows. This ensures real-time data sync across your systems and eliminates the hassle of manual updates. Your entire tech stack works as one."
+          imageAlt="Integration illustration"
+          imageUrl="/20944138.jpg"
+          />
         <FeatureRow
           eyebrow="RPA & Bots"
           title="Automate repetitive tasks"
-          description="Eliminate manual data entry and repetitive operations with Robotic Process Automation and custom bots."
+          description="Eliminate manual data entry and repetitive operations with Robotic Process Automation and custom bots. Our bots handle complex, rule-based tasks quickly and accurately, freeing your team to focus on high-impact work. Efficiency without compromise."
           imageAlt="RPA bots illustration"
+          imageUrl="/117444640_600.jpg"
         />
         <FeatureRow
           eyebrow="API Automation"
           title="Powerful and scalable automations"
-          description="Build API-driven automations that connect multiple apps, fetch data, and trigger actions seamlessly."
+          description="Build API-driven automations that connect multiple apps, fetch data, and trigger actions seamlessly. We design secure and maintainable integrations that enhance productivity and reduce latency. Perfect for data-heavy or fast-growing environments."
           imageAlt="API automation illustration"
+          imageUrl="/7100345.jpg"
           
         />
         <FeatureRow
           eyebrow="Monitoring & Support"
           title="Stay optimized and supported"
-          description="We continuously monitor automations, fix errors, and provide reliable support to ensure your workflows run smoothly."
+          description="We continuously monitor automations, fix errors, and provide reliable support to ensure your workflows run smoothly. Regular audits keep your systems stable and up to date. You focus on strategy while we handle the technical reliability."
           imageAlt="Monitoring illustration"
+          imageUrl="/representation-user-experience-interface-design.jpg"
         />
       </div>
 

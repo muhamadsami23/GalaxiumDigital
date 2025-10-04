@@ -703,28 +703,28 @@ export default function WebDevelopmentPage() {
         <FeatureRow
           eyebrow="Responsive Design"
           title="Consistent experience across all devices"
-          description="With a mobile-first approach, your website adapts seamlessly across devices, ensuring a fast and engaging experience for every user."
+          description="With a mobile-first approach, your website adapts seamlessly across devices, ensuring a fast and engaging experience for every user. We prioritize performance, accessibility, and intuitive navigation to maximize user satisfaction. Every pixel is optimized for consistency and impact."
           imageAlt="Responsive design illustration"
           imageUrl="/responsiveWeb.png"
         />
         <FeatureRow
           eyebrow="CMS Integration"
           title="Effortless content management"
-          description="We integrate modern CMS solutions that let you update blogs, media, and pages without needing technical knowledge."
+          description="We integrate modern CMS solutions that let you update blogs, media, and pages without needing technical knowledge. Our setups give you full control over your content with minimal effort. Manage everything easily while keeping your design intact."
           imageAlt="CMS dashboard illustration"
           imageUrl="/cmsweb.png"
         />
         <FeatureRow
           eyebrow="API & Integrations"
           title="Extend your digital ecosystem"
-          description="Secure APIs and integrations connect your site to CRMs, payment systems, and external services, powering seamless workflows."
+          description="Secure APIs and integrations connect your site to CRMs, payment systems, and external services, powering seamless workflows. We ensure data flows reliably between platforms, enabling automation and smarter decision-making. Your website becomes the hub of your operations."
           imageAlt="API integrations illustration"
           imageUrl="/apiweb.png"
         />
         <FeatureRow
           eyebrow="Security & Support"
           title="Keep your site protected and maintained"
-          description="From continuous monitoring to best-practice security enhancements, we ensure your site stays reliable, safe, and future-proof."
+          description="From continuous monitoring to best-practice security enhancements, we ensure your site stays reliable, safe, and future-proof. Our team manages updates, backups, and issue resolution proactively. You focus on growth while we keep your site running flawlessly."
           imageAlt="Security illustration"
           imageUrl="/securityweb.png"
         />

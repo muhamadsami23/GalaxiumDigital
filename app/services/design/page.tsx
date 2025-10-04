@@ -72,47 +72,45 @@ export default function DesignPage() {
         className="mx-auto max-w-6xl px-4 py-16 space-y-24"
       >
         <FeatureRow
-          eyebrow="Graphic Design"
-          title="Visuals that Speak"
-          description="From business cards to social media graphics, we design visuals that grab attention and tell your story effectively."
-          imageAlt="Graphic design illustration"
-          imageUrl="/3675525.jpg"
-        />
+  eyebrow="Graphic Design"
+  title="Visuals that Speak"
+  description="From business cards to social media graphics, we design visuals that grab attention and tell your story effectively. Every design is tailored to your brand identity, ensuring consistency and impact across all platforms."
+  imageAlt="Graphic design illustration"
+  imageUrl="/3675525.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="Logo & Branding"
-          title="Build Your Brand Identity"
-          description="We craft memorable logos and branding guidelines that make your business stand out and stay consistent everywhere."
-          imageAlt="Logo design illustration"
-          imageUrl="/SL-031720-29020-09.jpg"
-       
-        />
+<FeatureRow
+  eyebrow="Logo & Branding"
+  title="Build Your Brand Identity"
+  description="We craft memorable logos and branding guidelines that make your business stand out and stay consistent everywhere. Our approach blends creativity with strategy to build a brand that truly represents your vision."
+  imageAlt="Logo design illustration"
+  imageUrl="/SL-031720-29020-09.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="UI/UX Design"
-          title="Seamless User Experiences"
-          description="Our UI/UX design process ensures intuitive navigation, attractive layouts, and engaging interfaces for apps and websites."
-          imageAlt="UI UX design illustration"
-          imageUrl="/5778985.jpg"
-        />
+<FeatureRow
+  eyebrow="UI/UX Design"
+  title="Seamless User Experiences"
+  description="Our UI/UX design process ensures intuitive navigation, attractive layouts, and engaging interfaces for apps and websites. We prioritize user flow and functionality, delivering designs that feel natural and effortless to use."
+  imageAlt="UI UX design illustration"
+  imageUrl="/5778985.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="Posters & Print"
-          title="Creative Posters & Visuals"
-          description="We design striking posters, brochures, and promotional material that leave a strong impression offline and online."
-          imageAlt="Poster design illustration"
-          imageUrl="/4964200.jpg"
-          
-        />
+<FeatureRow
+  eyebrow="Posters & Print"
+  title="Creative Posters & Visuals"
+  description="We design striking posters, brochures, and promotional material that leave a strong impression offline and online. From concept to print, every element is crafted for clarity, balance, and visual appeal."
+  imageAlt="Poster design illustration"
+  imageUrl="/4964200.jpg"
+/>
 
-        <FeatureRow
-          eyebrow="Social Media & Marketing"
-          title="Content That Converts"
-          description="From social media visuals to digital ads, we create content that attracts, engages, and helps your brand grow."
-          imageAlt="Social media design illustration"imageUrl="/5476534.jpg"
-        
-          
-        />
+<FeatureRow
+  eyebrow="Social Media & Marketing"
+  title="Content That Converts"
+  description="From social media visuals to digital ads, we create content that attracts, engages, and helps your brand grow. Each campaign is designed with audience psychology in mind, turning creativity into measurable results."
+  imageAlt="Social media design illustration"
+  imageUrl="/5476534.jpg"
+/>
+
       </div>
 
       {/* CTA */}

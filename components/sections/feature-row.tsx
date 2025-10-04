@@ -80,7 +80,7 @@ export function FeatureRow({
   return (
     <section
       aria-labelledby={`${eyebrow.replace(/\s+/g, "-").toLowerCase()}-title`}
-      className={`relative z-10 grid items-center gap-12 md:grid-cols-2 ${
+      className={`relative z-10 grid items-start gap-12 md:grid-cols-2 ${
         reverse ? "md:[&>div:first-child]:order-2" : ""
       }`}
     >

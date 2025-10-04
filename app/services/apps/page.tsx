@@ -400,35 +400,35 @@ export default function AppDevelopmentPage() {
         <FeatureRow
           eyebrow="Cross-Platform Development"
           title="One codebase, multiple platforms"
-          description="Save time and cost with apps that work seamlessly on both iOS and Android using modern frameworks like Flutter and React Native."
+          description="Save time and cost with apps that work seamlessly on both iOS and Android using modern frameworks like Flutter and React Native. We create unified experiences without compromising quality or performance. Faster development cycles mean quicker launches and consistent updates."
           imageAlt="Cross platform app illustration"
           imageUrl="/crossplat.png"
         />
         <FeatureRow
           eyebrow="Native App Experience"
           title="High performance and responsiveness"
-          description="We deliver apps that fully leverage the power of native platforms, ensuring top-tier performance and smooth user experiences."
+          description="We deliver apps that fully leverage the power of native platforms, ensuring top-tier performance and smooth user experiences. Our approach maximizes device capabilities like camera, GPS, and sensors. The result: apps that feel fast, fluid, and reliable."
           imageAlt="Native app illustration"
           imageUrl="/nativeapp.jpg"
         />
         <FeatureRow
           eyebrow="UI/UX Focus"
           title="Design that delights users"
-          description="Our apps combine intuitive navigation and modern design trends, providing engaging and user-friendly mobile experiences."
+          description="Our apps combine intuitive navigation and modern design trends, providing engaging and user-friendly mobile experiences. We prioritize clarity, accessibility, and visual harmony. Every interaction is crafted to keep users connected and satisfied."
           imageAlt="Mobile UI design illustration"
           imageUrl="/ui.jpg"
         />
         <FeatureRow
           eyebrow="Cloud & Backend Integration"
           title="Seamless data and service connections"
-          description="We connect apps with secure cloud backends, APIs, and databases, ensuring reliability and scalability for businesses of all sizes."
+          description="We connect apps with secure cloud backends, APIs, and databases, ensuring reliability and scalability for businesses of all sizes. This enables real-time updates, cross-device sync, and secure data handling. Your app grows with your business, not against it."
           imageAlt="App backend integration illustration"
           imageUrl="/cla.png"
         />
         <FeatureRow
           eyebrow="App Deployment & Support"
           title="From launch to long-term growth"
-          description="We guide you through app store submissions, updates, and provide ongoing support to ensure your app grows with your audience."
+          description="We guide you through app store submissions, updates, and provide ongoing support to ensure your app grows with your audience. Regular maintenance keeps performance high and bugs low. We stay involved so your app continues to deliver value over time."
           imageAlt="App store launch illustration"
           imageUrl="/all.png"
         />

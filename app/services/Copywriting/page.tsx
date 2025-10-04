@@ -80,31 +80,37 @@ export default function CopywritingPage() {
         className="mx-auto max-w-6xl px-4 py-16 space-y-24 relative z-10"
       >
         <FeatureRow
-          eyebrow="Professional Writing"
-          title="Polished words that build authority"
-          description="We craft business documents, reports, and professional communication with clarity and precision, helping you leave a lasting impression."
-          imageAlt="Professional writing illustration"
-        />
-        <FeatureRow
-          eyebrow="Content Writing"
-          title="Engaging articles & blogs"
-          description="Our SEO-friendly articles, blogs, and website content boost your brand’s visibility while keeping readers engaged."
-          imageAlt="Content writing illustration"
-          
+  eyebrow="Professional Writing"
+  title="Polished words that build authority"
+  description="We craft business documents, reports, and professional communication with clarity and precision, helping you leave a lasting impression. Each piece is tailored to your brand voice, ensuring professionalism and consistency across every message."
+  imageAlt="Professional writing illustration"
+  imageUrl="/notepad-laptop-concept.jpg"
+/>
 
-        />
-        <FeatureRow
-          eyebrow="Marketing Copy"
-          title="Words that sell & persuade"
-          description="From social media posts to ad campaigns and product descriptions, we create compelling copy that drives conversions."
-          imageAlt="Marketing copy illustration"
-        />
-        <FeatureRow
-          eyebrow="Resumes & Proposals"
-          title="Stand out with every document"
-          description="We design impactful resumes, cover letters, and proposals tailored to your goals and industry, highlighting your strengths effectively."
-          imageAlt="Resume writing illustration"
-        />
+<FeatureRow
+  eyebrow="Content Writing"
+  title="Engaging articles & blogs"
+  description="Our SEO-friendly articles, blogs, and website content boost your brand’s visibility while keeping readers engaged. We focus on relevance, readability, and value to help your audience trust and return for more."
+  imageAlt="Content writing illustration"
+  imageUrl="/3227635.jpg"
+/>
+
+<FeatureRow
+  eyebrow="Marketing Copy"
+  title="Words that sell & persuade"
+  description="From social media posts to ad campaigns and product descriptions, we create compelling copy that drives conversions. Every line is crafted to attract attention, spark interest, and turn readers into customers."
+  imageAlt="Marketing copy illustration"
+  imageUrl="/online-strategy-media-marketing-icons.jpg"
+/>
+
+<FeatureRow
+  eyebrow="Resumes & Proposals"
+  title="Stand out with every document"
+  description="We design impactful resumes, cover letters, and proposals tailored to your goals and industry, highlighting your strengths effectively. Our approach combines structure and storytelling to help you make a confident first impression."
+  imageAlt="Resume writing illustration"
+  imageUrl="/9846834.jpg"
+/>
+
       </div>
 
       {/* CTA */}
