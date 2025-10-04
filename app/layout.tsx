@@ -199,7 +199,10 @@ export default function RootLayout({
       </head>
       <body className="font-sans">
         <Navbar />
-        <ParticleBackground />
+         <div className="fixed inset-0 -z-10">
+          <ParticleBackground />
+        </div>
+
         <ClickBalls />
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

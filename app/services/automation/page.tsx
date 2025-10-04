@@ -4,7 +4,7 @@ import FooterSection from "@/components/sections/footer"
 
 export default function AutomationPage() {
   return (
-    <main className="min-h-dvh bg-background text-foreground">
+    <main className="relative z-10 min-h-dvh text-foreground">
 
       {/* Hero */}
       <section aria-labelledby="hero-title" className="relative overflow-hidden">
@@ -27,9 +27,9 @@ export default function AutomationPage() {
             </div>
 
             {/* Right Image */}
-            <div className="flex-1">
+            <div className="flex-1 relative z-10">
               <img
-                src="/automation.png" // 👈 Add your own illustration here
+                src="/automation.png"
                 alt="Workflow automation illustration"
                 className="w-full max-w-lg md:max-w-xl mx-auto md:mx-0"
               />
@@ -40,16 +40,16 @@ export default function AutomationPage() {
         {/* Background accents */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl"
+          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl -z-10"
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl"
+          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl -z-10"
         />
       </section>
 
       {/* Tech badges section */}
-      <section className="mt-12 text-center px-4">
+      <section className="mt-12 text-center px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center gap-2 flex-wrap">
             {[
@@ -58,7 +58,7 @@ export default function AutomationPage() {
             ].map((t) => (
               <span
                 key={t}
-                className="rounded-full bg-muted px-5 py-1 text-xs font-medium text-muted-foreground"
+                className="rounded-full px-5 py-1 text-xs font-medium text-muted-foreground"
               >
                 {t}
               </span>
@@ -68,7 +68,7 @@ export default function AutomationPage() {
       </section>
 
       {/* Feature Grid section */}
-      <section className="mt-16 px-4">
+      <section className="mt-16 px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <FeatureGrid />
         </div>
@@ -77,44 +77,37 @@ export default function AutomationPage() {
       {/* Alternating full-width feature sections */}
       <div
         id="features"
-        className="mx-auto max-w-6xl px-4 py-16 space-y-24"
+        className="mx-auto max-w-6xl px-4 py-16 space-y-24 relative z-10"
       >
         <FeatureRow
           eyebrow="Custom Workflows"
           title="Automate your unique processes"
           description="From lead management to reporting, we design workflows that fit your exact needs, helping your team work smarter, not harder."
           imageAlt="Workflow automation illustration"
-          imageQuery="workflow automation 3d modern ui"
         />
         <FeatureRow
           eyebrow="Third-Party Integrations"
           title="Seamlessly connect your tools"
           description="We integrate platforms like Slack, Airtable, Notion, and CRMs with automation tools like n8n or Zapier for smooth workflows."
-          imageAlt="Integration illustration"
-          imageQuery="software integrations flow 3d"
-          reverse
-        />
+          imageAlt="Integration illustration"/>
         <FeatureRow
           eyebrow="RPA & Bots"
           title="Automate repetitive tasks"
           description="Eliminate manual data entry and repetitive operations with Robotic Process Automation and custom bots."
           imageAlt="RPA bots illustration"
-          imageQuery="rpa automation robot 3d"
         />
         <FeatureRow
           eyebrow="API Automation"
           title="Powerful and scalable automations"
           description="Build API-driven automations that connect multiple apps, fetch data, and trigger actions seamlessly."
           imageAlt="API automation illustration"
-          imageQuery="api automation pipelines 3d"
-          reverse
+          
         />
         <FeatureRow
           eyebrow="Monitoring & Support"
           title="Stay optimized and supported"
           description="We continuously monitor automations, fix errors, and provide reliable support to ensure your workflows run smoothly."
           imageAlt="Monitoring illustration"
-          imageQuery="system monitoring automation 3d"
         />
       </div>
 
@@ -122,7 +115,7 @@ export default function AutomationPage() {
       <section
         id="cta"
         aria-labelledby="cta-title"
-        className="mx-auto max-w-5xl px-4 py-24 text-center"
+        className="mx-auto max-w-5xl px-4 py-24 text-center relative z-10"
       >
         <h2
           id="cta-title"

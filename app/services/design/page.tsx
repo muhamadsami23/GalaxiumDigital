@@ -4,7 +4,7 @@ import FooterSection from "@/components/sections/footer"
 
 export default function DesignPage() {
   return (
-    <main className="min-h-dvh bg-background text-foreground">
+    <main className="min-h-dvh text-foreground">
       {/* Hero */}
       <section aria-labelledby="hero-title" className="relative overflow-hidden">
         <div className="mx-auto max-w-6xl px-4 py-20">
@@ -33,20 +33,10 @@ export default function DesignPage() {
             </div>
           </div>
         </div>
-
-        {/* Background accents */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl"
-        />
       </section>
 
       {/* Tech badges section */}
-      <section className="mt-12 text-center px-4">
+      <section className="mt-1 text-center px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center gap-2 flex-wrap">
             {[
@@ -86,7 +76,7 @@ export default function DesignPage() {
           title="Visuals that Speak"
           description="From business cards to social media graphics, we design visuals that grab attention and tell your story effectively."
           imageAlt="Graphic design illustration"
-          imageQuery="graphic design creative posters visuals 3d"
+          imageUrl="/3675525.jpg"
         />
 
         <FeatureRow
@@ -94,8 +84,8 @@ export default function DesignPage() {
           title="Build Your Brand Identity"
           description="We craft memorable logos and branding guidelines that make your business stand out and stay consistent everywhere."
           imageAlt="Logo design illustration"
-          imageQuery="logo branding identity creative 3d"
-          reverse
+          imageUrl="/SL-031720-29020-09.jpg"
+       
         />
 
         <FeatureRow
@@ -103,7 +93,7 @@ export default function DesignPage() {
           title="Seamless User Experiences"
           description="Our UI/UX design process ensures intuitive navigation, attractive layouts, and engaging interfaces for apps and websites."
           imageAlt="UI UX design illustration"
-          imageQuery="mobile web ui ux app design screens 3d"
+          imageUrl="/5778985.jpg"
         />
 
         <FeatureRow
@@ -111,16 +101,17 @@ export default function DesignPage() {
           title="Creative Posters & Visuals"
           description="We design striking posters, brochures, and promotional material that leave a strong impression offline and online."
           imageAlt="Poster design illustration"
-          imageQuery="poster flyer design creative visual 3d"
-          reverse
+          imageUrl="/4964200.jpg"
+          
         />
 
         <FeatureRow
           eyebrow="Social Media & Marketing"
           title="Content That Converts"
           description="From social media visuals to digital ads, we create content that attracts, engages, and helps your brand grow."
-          imageAlt="Social media design illustration"
-          imageQuery="social media content design ads visuals 3d"
+          imageAlt="Social media design illustration"imageUrl="/5476534.jpg"
+        
+          
         />
       </div>
 

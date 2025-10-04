@@ -4,7 +4,7 @@ import FooterSection from "@/components/sections/footer"
 
 export default function CopywritingPage() {
   return (
-    <main className="min-h-dvh bg-background text-foreground">
+    <main className="relative z-10 min-h-dvh text-foreground">
 
       {/* Hero */}
       <section aria-labelledby="hero-title" className="relative overflow-hidden">
@@ -27,9 +27,9 @@ export default function CopywritingPage() {
             </div>
 
             {/* Right Image */}
-            <div className="flex-1">
+            <div className="flex-1 relative z-10">
               <img
-                src="/copywriting.png" // 👈 Replace with your illustration path
+                src="/copywriting.png"
                 alt="Copywriting illustration"
                 className="w-full max-w-lg md:max-w-xl mx-auto md:mx-0"
               />
@@ -40,24 +40,25 @@ export default function CopywritingPage() {
         {/* Background accents */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl"
+          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl -z-10"
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl"
+          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl -z-10"
         />
       </section>
 
       {/* Tech badges section */}
-      <section className="mt-12 text-center px-4">
+      <section className="mt-12 text-center px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center gap-2 flex-wrap">
             {[
-              "Articles", "Web Copy", "Social Media Posts", "SEO Blogs", "Resumes", "Cover Letters", "Proposals"
+              "Articles", "Web Copy", "Social Media Posts", "SEO Blogs",
+              "Resumes", "Cover Letters", "Proposals"
             ].map((t) => (
               <span
                 key={t}
-                className="rounded-full bg-muted px-5 py-1 text-xs font-medium text-muted-foreground"
+                className="rounded-full px-5 py-1 text-xs font-medium text-muted-foreground"
               >
                 {t}
               </span>
@@ -67,7 +68,7 @@ export default function CopywritingPage() {
       </section>
 
       {/* Feature Grid section */}
-      <section className="mt-16 px-4">
+      <section className="mt-16 px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <FeatureGrid />
         </div>
@@ -76,37 +77,33 @@ export default function CopywritingPage() {
       {/* Alternating feature rows */}
       <div
         id="features"
-        className="mx-auto max-w-6xl px-4 py-16 space-y-24"
+        className="mx-auto max-w-6xl px-4 py-16 space-y-24 relative z-10"
       >
         <FeatureRow
           eyebrow="Professional Writing"
           title="Polished words that build authority"
           description="We craft business documents, reports, and professional communication with clarity and precision, helping you leave a lasting impression."
           imageAlt="Professional writing illustration"
-          imageQuery="professional writing desk pen paper 3d"
         />
         <FeatureRow
           eyebrow="Content Writing"
           title="Engaging articles & blogs"
           description="Our SEO-friendly articles, blogs, and website content boost your brand’s visibility while keeping readers engaged."
           imageAlt="Content writing illustration"
-          imageQuery="content writing blog article laptop 3d"
-          reverse
+          
+
         />
         <FeatureRow
           eyebrow="Marketing Copy"
           title="Words that sell & persuade"
           description="From social media posts to ad campaigns and product descriptions, we create compelling copy that drives conversions."
           imageAlt="Marketing copy illustration"
-          imageQuery="marketing copy megaphone social media 3d"
         />
         <FeatureRow
           eyebrow="Resumes & Proposals"
           title="Stand out with every document"
           description="We design impactful resumes, cover letters, and proposals tailored to your goals and industry, highlighting your strengths effectively."
           imageAlt="Resume writing illustration"
-          imageQuery="resume proposal cover letter 3d"
-          reverse
         />
       </div>
 
@@ -114,7 +111,7 @@ export default function CopywritingPage() {
       <section
         id="cta"
         aria-labelledby="cta-title"
-        className="mx-auto max-w-5xl px-4 py-24 text-center"
+        className="mx-auto max-w-5xl px-4 py-24 text-center relative z-10"
       >
         <h2
           id="cta-title"

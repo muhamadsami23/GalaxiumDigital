@@ -4,7 +4,7 @@ import FooterSection from "@/components/sections/footer"
 
 export default function MarketingPage() {
   return (
-    <main className="min-h-dvh bg-background text-foreground">
+    <main className="min-h-dvh text-foreground">
       {/* Hero */}
       <section aria-labelledby="hero-title" className="relative overflow-hidden">
         <div className="mx-auto max-w-6xl px-4 py-20">
@@ -26,23 +26,13 @@ export default function MarketingPage() {
             {/* Right Image */}
             <div className="flex-1">
               <img
-                src="/marketing.png" // 👈 Update with your marketing illustration
+                src="/digitalmar.png" // 👈 Update with your marketing illustration
                 alt="Marketing illustration"
                 className="w-full max-w-lg md:max-w-xl mx-auto md:mx-0"
               />
             </div>
           </div>
         </div>
-
-        {/* Background accents */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute -top-12 right-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute left-[-8%] top-20 h-56 w-56 rounded-full bg-accent/30 blur-2xl"
-        />
       </section>
 
       {/* Marketing badges */}
@@ -87,7 +77,7 @@ export default function MarketingPage() {
           title="Grow Your Brand Online"
           description="We craft strategies for platforms like Instagram, TikTok, LinkedIn, and Facebook to increase visibility and engagement."
           imageAlt="Social media marketing illustration"
-          imageQuery="social media marketing growth 3d"
+          imageUrl="/280412-P6ATOW-488.jpg"
         />
 
         <FeatureRow
@@ -95,8 +85,8 @@ export default function MarketingPage() {
           title="Reach the Right Audience"
           description="Our ad campaigns on Google and Meta (Facebook & Instagram) are optimized for conversions and ROI."
           imageAlt="Google Ads illustration"
-          imageQuery="google meta ads campaign digital 3d"
-          reverse
+          imageUrl="/6076520.jpg"
+          
         />
 
         <FeatureRow
@@ -104,7 +94,7 @@ export default function MarketingPage() {
           title="Direct Outreach That Works"
           description="From cold emails to automated campaigns, we create messages that build relationships and drive results."
           imageAlt="Email marketing illustration"
-          imageQuery="email marketing cold outreach automation 3d"
+          imageUrl="/em.jpg"
         />
 
         <FeatureRow
@@ -112,8 +102,8 @@ export default function MarketingPage() {
           title="Rank Higher, Gain Trust"
           description="We optimize websites and content to rank higher in search engines, improving long-term visibility and brand trust."
           imageAlt="SEO optimization illustration"
-          imageQuery="seo content marketing website rank 3d"
-          reverse
+          imageUrl="/sero.png"
+       
         />
 
         <FeatureRow
@@ -121,7 +111,7 @@ export default function MarketingPage() {
           title="Data-Driven Decisions"
           description="We track performance across campaigns and optimize strategies, ensuring your business achieves measurable growth."
           imageAlt="Analytics dashboard illustration"
-          imageQuery="marketing analytics data dashboard 3d"
+          imageUrl="/4020769.jpg"
         />
       </div>
 
