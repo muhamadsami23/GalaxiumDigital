@@ -433,11 +433,25 @@ export const metadata: Metadata = {
     "SEO services",
     "mobile app development",
     "IT solutions",
+    "Galaxium Digital",
+    "software house",
+    "web development",
+    "custom software",
+    "digital marketing",
+    "SEO services",
+    "mobile app development",
+    "IT solutions",
+    "business consultancy",
+    "tech consultancy",
+    "marketing consultancy",
+    "workflow automation",
+    "branding services",
+    "copywriting services",
   ],
   icons: {
-    icon: "/Logo.ico",
-    shortcut: "/Logo.ico",
-    apple: "/Logo.ico",
+    icon: "/logo.ico",
+    shortcut: "/logo.ico",
+    apple: "/logo.ico",
   },
   authors: [{ name: "Galaxium Digital", url: "https://galaxiumdigital.app" }],
   creator: "Galaxium Digital",
@@ -456,7 +470,7 @@ export const metadata: Metadata = {
     siteName: "Galaxium Digital",
     images: [
       {
-        url: "https://galaxiumdigital.app/Logo.ico", // ✅ Your logo for preview
+        url: "https://galaxiumdigital.app/logo.ico", // ✅ Your logo for preview
         width: 512,
         height: 512,
         alt: "Galaxium Digital Logo",
@@ -473,7 +487,7 @@ export const metadata: Metadata = {
     description:
       "Partner with Galaxium Digital for web development, software engineering, and digital marketing services that drive growth.",
     creator: "@galaxium",
-    images: ["https://galaxiumdigital.app/Logo.ico"],
+    images: ["https://galaxiumdigital.app/logo.ico"],
   },
 }
 
@@ -549,9 +563,9 @@ export default function RootLayout({
     >
       <head>
         {/* ✅ Favicon Links */}
-        <link rel="icon" href="/Logo.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/Logo.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/Logo.ico" />
+        <link rel="icon" href="/logo.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/logo.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/logo.ico" />
 
         {/* ✅ Structured Data (Organization Schema) */}
         <script
@@ -562,7 +576,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Galaxium Digital",
               url: "https://galaxiumdigital.app",
-              logo: "https://galaxiumdigital.app/Logo.ico",
+              logo: "https://galaxiumdigital.app/logo.ico",
               sameAs: [
                 "https://www.linkedin.com/company/galaxium",
                 "https://twitter.com/galaxium",
