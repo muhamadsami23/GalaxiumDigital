@@ -266,7 +266,7 @@ import Link from "next/link"
 
 const projects = [
   {
-    title: "University's Academic Portal",
+    title: "Full Stack University's Academic Portal",
     img: "/sapmas.png",
     desc: "A comprehensive system built for University to manage students, teachers and other staff. It comes with features like attendance, results, fee management, library management, and more.",
     stack: ["React", "Typescript", "Node.Js", "MySQL"],
@@ -278,18 +278,11 @@ const projects = [
     stack: ["C++", "C", "Unity", "C#", "Data Structures"],
     // no link here → optional
   },
-  {
-    title: "Mind Mechanics Portfolio Website",
-    img: "/mind.png",
-    desc: "A holistic website designed for Mind Mechanics to promote mental, physical, and emotional wellness through expert services. The platform features a clean design and intuitive user experience for easy navigation and bookings.",
-    stack: ["Next.Js", "React", "Tailwind"],
-    link: "https://mindmechanicss.com", // ✅ optional
-  },
    {
     title: "HavenDrop Shopify Store",
     img: "/WhatsApp Image 2025-10-06 at 20.09.15_0c15fa02.jpg",
-    desc: "A holistic website designed for Mind Mechanics to promote mental, physical, and emotional wellness through expert services. The platform features a clean design and intuitive user experience for easy navigation and bookings.",
-    stack: ["Next.Js", "React", "Tailwind"],
+desc:"A sleek and modern Shopify-powered store crafted for seamless shopping and stylish interiors. Built to showcase home fashion with a user-friendly experience and bold visual appeal."
+    , stack: ["Next.Js", "React", "Tailwind"],
     link: "https://mindmechanicss.com", // ✅ optional
   },
 ]
@@ -318,7 +311,7 @@ export default function Portfolio() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Portfolio
+          Featured Projects
         </motion.h2>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
