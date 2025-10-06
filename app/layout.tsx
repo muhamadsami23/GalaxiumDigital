@@ -419,6 +419,8 @@ import Navbar from "@/components/navbar"
 import "./globals.css"
 import { ParticleBackground } from "@/components/particlebackground"
 import ClickBalls from "@/components/click"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 export const metadata: Metadata = {
   title: "Galaxium Digital | Innovative Web, Software & Marketing Solutions",
