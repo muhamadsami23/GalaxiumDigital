@@ -318,7 +318,7 @@ export default function Portfolio() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Portfolio
+          Past Projects
         </motion.h2>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
